@@ -6,12 +6,17 @@ section {
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
 
-h1, h2, p{
+h1, h2, p {
   color: #fff;
 }
 
 #icon-1, #icon-2, #icon-3 {
   fill: #fff;
+}
+
+.content {
+  text-align: center;
+  max-width: 15em;
 }
 
 .icon-1 {
@@ -22,10 +27,10 @@ h1, h2, p{
 .btn-ghost {
   padding: .5rem .75rem;
   color: #fff;
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, .7);
 }
 
-.btn-ghost:hover {
+.btn:hover {
   background-color: #fff;
   color: #ff5e3a;
   border-color: rgba(255, 255, 255, 1);
