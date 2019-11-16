@@ -1,0 +1,32 @@
+html {
+  font-family: Overpass, sans-serif;
+}
+
+section {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+h1, h2, p{
+  color: #fff;
+}
+
+#icon-1, #icon-2, #icon-3 {
+  fill: #fff;
+}
+
+.icon-1 {
+  display: inline-block;
+  width: 50%;
+}
+
+.btn-ghost {
+  padding: .5rem .75rem;
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  color: #ff5e3a;
+  border-color: rgba(255, 255, 255, 1);
+}
