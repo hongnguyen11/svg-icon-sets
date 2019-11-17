@@ -22,6 +22,10 @@ li {
   border-bottom: solid 2px rgba(255, 255, 255, .5);
 }
 
+.last-one {
+  border-bottom: 0;
+}
+
 .icon-1 {
   display: inline-block;
   width: 50%;
@@ -47,7 +51,7 @@ li {
   }
 
   ul {
-    padding: 160px;
+    padding: 40px;
   }
 
   .section {
